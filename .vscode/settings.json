@@ -1,0 +1,19 @@
+{
+    // editor indentation
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    // https://github.com/Microsoft/vscode-eslint/issues/42#issuecomment-318859607
+    "eslint.options": {
+      "extensions": [".js", ".jsx", ".ts", ".tsx"]
+    },
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+  }
